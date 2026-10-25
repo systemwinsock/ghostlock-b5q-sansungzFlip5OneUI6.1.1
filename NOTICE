@@ -1,0 +1,13 @@
+This product includes software developed as part of:
+
+- NebuSec CyberMeowfia — CVE-2026-43499 exploit source
+  https://github.com/NebuSec/CyberMeowfia (IonStack/CVE-2026-43499/exploit)
+- Root My Galaxy payloads (Apache-2.0)
+  https://github.com/BuSung-dev/Root-My-Galaxy-Payloads
+  (exploit framework, porting procedure, su_daemon bootstrap,
+  KernelSU late-load loader "ksud")
+- KernelSU — https://kernelsu.org (late-load kernel module)
+
+The b5q-F7310ZCS5DXJ2 target profile and automation scripts in this
+repository were derived from the above, with the modification described
+in README.md (S918_KSNITCH_FULL_COLLISIONS 5 -> 4).
